@@ -4,6 +4,10 @@ from ship import Ship
 from playMenu import *
 
 class Scoreboard():
+
+	textColor = (255, 255, 255)
+	textColor1 = (0,0,0)
+	emp1 = (0,0,0)
 	"""A class for scorekeeping"""
 	def __init__(self, setting, screen, stats):
 		self.screen = screen
@@ -13,7 +17,7 @@ class Scoreboard():
 		self.active = False
 
 		#Font settings for scoring information
-		self.textColor = (255, 255, 255)
+		self.textColor
 		self.font = pygame.font.Font('Fonts/Square.ttf', 20)
 
 		#Prepare the initial score image
@@ -21,6 +25,12 @@ class Scoreboard():
 		self.prepHighScore()
 		self.prepLevel()
 		self.prepShips()
+
+	def reverseCol():
+
+		Scoreboard.emp1 = Scoreboard.textColor
+		Scoreboard.textColor = Scoreboard.textColor1
+		Scoreboard.textColor1 = Scoreboard.emp1
 
 	def prepScore(self):
 		"""Turn the score into a rendered image"""
@@ -33,7 +43,7 @@ class Scoreboard():
 		#Display the score at the top left corner
 		self.scoreRect = self.scoreImg.get_rect()
 		self.scoreRect.right = self.screenRect.right - 20
-		self.scoreRect.top = 30
+		self.scoreRect.top = 10
 
 
 	def prepHighScore(self):

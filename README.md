@@ -34,6 +34,7 @@
 | Jaehun Kim.   | student.   |     |
 | Hansae Ju     | Student    |     |
 | Jaewoo Yang   | Student    |     |
+| Kim Tae Yoon           | Student    |     |
 | KeonWoong Noh | Student    |     |
 | Onyu Park     | Student    |     |
 | TaeWoong Kong | Student    |     |
@@ -63,6 +64,10 @@
 | HoJin Seo     | Student    |     |
 | Sungho Yun    | Student    |     |
 | Keunmo Koo.   | Genius     |     |
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32e4254063843e5905f9b8b058c8f2725d6aad2c
 
 
 # Galtron
